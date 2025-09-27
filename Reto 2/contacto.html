@@ -9,33 +9,85 @@
   <header>
   <h1>Tienda Muebles</h1>
   <nav>
-    <a href="./index.html">Inicio</a>
-    <a href="./nosotros.html">Nosotros</a>
-    <a href="./tienda.html">Tienda</a>
-    <a href="./blog.html">Blog</a>
-    <a href="./galeria.html">Galería</a>
-    <a href="./contacto.html">Contacto</a>
+
+    <ul>
+      <li><a href="./index.html">Inicio</a> </li>
+      <li><a href="./nosotros.html">Nosotros</a> </li>
+      <li><a href="./tienda.html">Tienda</a> </li>
+      <li><a href="./blog.html">Blog</a> </li>
+      <li><a href="./galeria.html">Galería</a> </li>
+      <li><a href="./contacto.html">Contacto</a> </li>
+    </ul>
   </nav>
   </header>
+  <main>
+    <h2>Contacto</h2>
+    <section>
+      <form>
+        <fieldset>
+          <legend>Tus Datos</legend>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id=nombre placeholder="Tu Nombre"><br>
+          <label for="Asunto">Asunto:</label>
+          <input type="text" id=asunto placeholder="Tu Asunto"><br>
+          <label for="email">E-mail:</label>
+          <input type="email" id=email placeholder="Tu Email"><br>
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id=telefono placeholder="Tu Teléfono"><br>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id=mensaje></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>País</legend>
+          <label for="pais">País</label>
+          <select id="pais">
+            <option value="México">México</option>
+            <option value="Perú">Perú</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Argentina">Argentina</option>
+            <option value="España">España</option>
+            <option value="Chile">Chile</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Información Extra</legend>
+          <label for="cliente">Cliente</label>
+          <input type="radio" id="cliente"><br>
+          <label for="proveedor">Proveedor</label>
+          <input type="radio" id="proveedor"><br>
+          <label for="catint">Categoría de Interés</label>
+          <input type="text">
+          
+        </fieldset>
+        <button type="submit">Enviar Formulario</button>
+      </form>
+    </section>
+  </main>
 
   <footer>
     <h3>Categorías</h3>
-    <a href="#">Cocina</a>
-    <a href="#">Oficina</a>
-    <a href="#">Jardín</a>
-    <a href="#">Cochera</a>
-    <a href="#">Dormitorios</a>
+    <ul>
+      <li> <a href="#">Cocina</a> </li>
+      <li> <a href="#">Oficina</a> </li>
+      <li> <a href="#">Jardín</a> </li>
+      <li> <a href="#">Cochera</a> </li>
+      <li> <a href="#">Dormitorios</a> </li>
+    </ul>
     <h3>Sobre Nosotros</h3>
-    <a href="#">Nuestra Historia</a>
-    <a href="#">Misión, Visión y Valores</a>
-    <a href="#">Carreras</a>
-    <a href="#">Política de Privacidad</a>
-    <a href="#">Términos del Servicio</a>
+    <ul>
+      <li> <a href="#">Nuestra Historia</a> </li>
+      <li> <a href="#">Misión, Visión y Valores</a> </li>
+      <li> <a href="#">Carreras</a> </li>
+      <li> <a href="#">Política de Privacidad</a> </li>
+      <li> <a href="#">Términos del Servicio</a> </li>
+    </ul>
     <h3>Soporte</h3>
-    <a href="#">Preguntas Frecuentes</a>
-    <a href="#">Ayuda en línea</a>
-    <a href="#">Confianza y Seguridad</a>
-    <p>Todos los derechos Reservados, TiendaMuebles</p>
+    <ul>
+      <li> <a href="#">Preguntas Frecuentes</a> </li>
+      <li> <a href="#">Ayuda en línea</a> </li>
+      <li> <a href="#">Confianza y Seguridad</a> </li>
+      <p>Todos los derechos Reservados, TiendaMuebles</p>
+    </ul>
   </footer>
 </body>
 </html>
